@@ -14,6 +14,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
     <title>pedlipop</title>
+    <script>
+       document.addEventListener("DOMContentLoaded", function(event) {
+           var scrollpos = localStorage.getItem('scrollpos');
+           if (scrollpos) window.scrollTo(0, scrollpos);
+       });
+
+       window.onbeforeunload = function(e) {
+           localStorage.setItem('scrollpos', window.scrollY);
+       };
+   </script>
 
   </head>
   <body>
