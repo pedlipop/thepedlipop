@@ -162,11 +162,13 @@ a:visited{
 }
 
 .my-works-button p{
-	padding-top: 24px;
+	padding-top: 20px;
+	padding-left: 6px;
 	text-align: center;
 	font-size: 20px;
-	font-family: Tomorrow;
+	font-family: Noto Sans SC;
 	color: #004CA8;
+	font-weight: 500;
 }
 
 /*-------------section-2-------------*/
